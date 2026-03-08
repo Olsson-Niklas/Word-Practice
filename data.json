@@ -1,0 +1,140 @@
+{
+  "categories": [
+    {
+      "category": "Mat & Dryck",
+      "icon": "",
+      "words": [
+        {
+          "word": "",
+          "image": ""
+        },
+        {
+          "word": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "category": "Fordon",
+      "icon": "",
+      "words": [
+        {
+          "word": "",
+          "image": ""
+        },
+        {
+          "word": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "category": "Djur",
+      "icon": "",
+      "words": [
+        {
+          "word": "Hund",
+          "image": ""
+        },
+        {
+          "word": "Katt",
+          "image": ""
+        },
+        {
+          "word": "Mus",
+          "image": ""
+        },
+        {
+          "word": "Tiger",
+          "image": ""
+        },
+        {
+          "word": "Lejon",
+          "image": ""
+        },
+        {
+          "word": "Elefant",
+          "image": ""
+        },
+        {
+          "word": "Giraff",
+          "image": ""
+        },
+        {
+          "word": "Zebra",
+          "image": ""
+        },
+        {
+          "word": "Panda",
+          "image": ""
+        },
+        {
+          "word": "Varg",
+          "image": ""
+        },
+        {
+          "word": "Fågel",
+          "image": ""
+        },
+        {
+          "word": "Ko",
+          "image": ""
+        },
+        {
+          "word": "Häst",
+          "image": ""
+        },
+        {
+          "word": "Orm",
+          "image": ""
+        },
+        {
+          "word": "Fisk",
+          "image": ""
+        },
+        {
+          "word": "Sköldpadda",
+          "image": ""
+        },
+        {
+          "word": "Kanin",
+          "image": ""
+        },
+        {
+          "word": "Räka",
+          "image": ""
+        },
+        {
+          "word": "Krabba",
+          "image": ""
+        },
+        {
+          "word": "Bläckfisk",
+          "image": ""
+        },
+        {
+          "word": "Delfin",
+          "image": ""
+        },
+        {
+          "word": "Val",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "category": "Kläder",
+      "icon": "",
+      "words": [
+        {
+          "word": "",
+          "image": ""
+        },
+        {
+          "word": "",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}

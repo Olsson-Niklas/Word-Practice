@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #f8f7f2;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: #8b9dc3;
+}
+
+/* ----------- Positioning ----------- */
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.gap {
+  gap: 1rem;
+}
+
+/* ----------- Text ------------ */
+.text--large {
+  font-size: 3rem;
+}
+
+.text--medium {
+  font-size: 2rem;
+}
+
+.text--small {
+  font-size: 1rem;
+}
+
+.text--adaptive {
+  font-size: clamp(1rem, 4vw, 3rem);
+}
+
+/* ----------- Header ------------- */
+
+/* Structure */
+.header {
+  padding: 30px;
+}
+
+/* skin */
+.background {
+  background-color: #5d76ac;
+}
+
+.drop-shadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* ---------- Main ----------- */
+
+/* Structure */
+.column {
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.categories {
+  position: absolute;
+  top: 25%;
+}
+
+.words {
+  width: 60%;
+  margin: 2rem;
+}
+
+/* Skin */
+
+.category {
+  aspect-ratio: 1 / 1;
+  width: 30vw;
+  max-width: 300px;
+}
+
+.border {
+  border: 2px solid #f8f7f2;
+}
+
+.rounded {
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* ---------------- Word -------------- */
+
+/* Structure */
+
+/* Skin */
