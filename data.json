@@ -3,136 +3,356 @@
     {
       "category": "Mat & Dryck",
       "icon": "",
+      "categoryPath": "img/categories/food-and-drink/",
       "words": [
         {
-          "word": "",
-          "image": ""
+          "word": "Pizza",
+          "image": "pizza.avif"
         },
         {
-          "word": "",
-          "image": ""
+          "word": "Pasta",
+          "image": "pasta.avif"
+        },
+        {
+          "word": "Banan",
+          "image": "banana.avif"
+        },
+        {
+          "word": "Apelsin",
+          "image": "orange.avif"
+        },
+        {
+          "word": "Tomat",
+          "image": "tomato.avif"
+        },
+        {
+          "word": "Hamburgare",
+          "image": "burger.avif"
+        },
+        {
+          "word": "Tårta",
+          "image": "cake.avif"
+        },
+        {
+          "word": "Sallat",
+          "image": "lettuce.avif"
+        },
+        {
+          "word": "Ris",
+          "image": "rice.avif"
+        },
+        {
+          "word": "Kyckling",
+          "image": "chicken.avif"
+        },
+        {
+          "word": "Potatis",
+          "image": "potato.avif"
+        },
+        {
+          "word": "Morot",
+          "image": "carrot.avif"
+        },
+        {
+          "word": "Lök",
+          "image": "onion.avif"
+        },
+        {
+          "word": "Flingor",
+          "image": "cereal.avif"
+        },
+        {
+          "word": "Paprika",
+          "image": "bellpepper.avif"
+        },
+        {
+          "word": "Ärtor",
+          "image": "peas.avif"
+        },
+        {
+          "word": "Whiskey",
+          "image": "whiskey.avif"
+        },
+        {
+          "word": "Vatten",
+          "image": "water.avif"
+        },
+        {
+          "word": "Mjölk",
+          "image": "milk.avif"
+        },
+        {
+          "word": "Juice",
+          "image": "juice.avif"
+        },
+        {
+          "word": "Lasagne",
+          "image": "lasagna.avif"
+        },
+        {
+          "word": "Köttbullar",
+          "image": "meatball.avif"
+        },
+        {
+          "word": "Bulle",
+          "image": "cinnamon-roll.avif"
+        },
+        {
+          "word": "Varmkorv",
+          "image": "hotdog.avif"
+        },
+        {
+          "word": "Smörgås",
+          "image": "sandwich.avif"
         }
       ]
     },
     {
       "category": "Fordon",
       "icon": "",
+      "categoryPath": "img/categories/vehicles/",
       "words": [
         {
-          "word": "",
-          "image": ""
+          "word": "Bil",
+          "image": "car.avif"
         },
         {
-          "word": "",
-          "image": ""
+          "word": "Buss",
+          "image": "bus.avif"
+        },
+        {
+          "word": "Cykel",
+          "image": "bicycle.avif"
+        },
+        {
+          "word": "Tåg",
+          "image": "train.avif"
+        },
+        {
+          "word": "Flygplan",
+          "image": "airplane.avif"
+        },
+        {
+          "word": "Taxi",
+          "image": "taxi.avif"
+        },
+        {
+          "word": "Segelbåt",
+          "image": "sailboat.avif"
+        },
+        {
+          "word": "Motorbåt",
+          "image": "motorboat.avif"
+        },
+        {
+          "word": "Moped",
+          "image": "moped.avif"
+        },
+        {
+          "word": "Motorcykel",
+          "image": "motorcycle.avif"
+        },
+        {
+          "word": "Spårvagn",
+          "image": "tram.avif"
         }
       ]
     },
     {
       "category": "Djur",
       "icon": "",
+      "categoryPath": "img/categories/animals/",
       "words": [
         {
           "word": "Hund",
-          "image": ""
+          "image": "dog.avif"
         },
         {
           "word": "Katt",
-          "image": ""
+          "image": "cat.avif"
         },
         {
           "word": "Mus",
-          "image": ""
+          "image": "mouse.avif"
         },
         {
           "word": "Tiger",
-          "image": ""
+          "image": "tiger.avif"
         },
         {
           "word": "Lejon",
-          "image": ""
+          "image": "lion.avif"
         },
         {
           "word": "Elefant",
-          "image": ""
+          "image": "elephant.avif"
         },
         {
           "word": "Giraff",
-          "image": ""
+          "image": "giraff.avif"
         },
         {
           "word": "Zebra",
-          "image": ""
+          "image": "zebra.avif"
         },
         {
           "word": "Panda",
-          "image": ""
+          "image": "panda.avif"
         },
         {
           "word": "Varg",
-          "image": ""
+          "image": "wolf.avif"
         },
         {
           "word": "Fågel",
-          "image": ""
+          "image": "bird.avif"
         },
         {
           "word": "Ko",
-          "image": ""
+          "image": "cow.avif"
         },
         {
           "word": "Häst",
-          "image": ""
+          "image": "horse.avif"
         },
         {
           "word": "Orm",
-          "image": ""
+          "image": "snake.avif"
         },
         {
           "word": "Fisk",
-          "image": ""
+          "image": "fish.avif"
         },
         {
           "word": "Sköldpadda",
-          "image": ""
+          "image": "turtle.avif"
         },
         {
           "word": "Kanin",
-          "image": ""
-        },
-        {
-          "word": "Räka",
-          "image": ""
+          "image": "bunny.avif"
         },
         {
           "word": "Krabba",
-          "image": ""
+          "image": "crab.avif"
         },
         {
           "word": "Bläckfisk",
-          "image": ""
+          "image": "octopus.avif"
         },
         {
           "word": "Delfin",
-          "image": ""
+          "image": "dolphin.avif"
         },
         {
           "word": "Val",
-          "image": ""
+          "image": "whale.avif"
         }
       ]
     },
     {
       "category": "Kläder",
       "icon": "",
+      "categoryPath": "img/categories/clothes/",
       "words": [
         {
-          "word": "",
-          "image": ""
+          "word": "Skor",
+          "image": "shoes.avif"
         },
         {
-          "word": "",
-          "image": ""
+          "word": "Tröja",
+          "image": "shirt.avif"
+        },
+        {
+          "word": "Byxor",
+          "image": "pants.avif"
+        },
+        {
+          "word": "Kortbyxor",
+          "image": "shorts.avif"
+        },
+        {
+          "word": "Jacka",
+          "image": "jacket.avif"
+        },
+        {
+          "word": "Mössa",
+          "image": "beanie.avif"
+        },
+        {
+          "word": "Keps",
+          "image": "cap.avif"
+        },
+        {
+          "word": "Hatt",
+          "image": "hat.avif"
+        },
+        {
+          "word": "Strumpor/Sockor",
+          "image": "socks.avif"
+        },
+        {
+          "word": "Kalsonger",
+          "image": "underwear.avif"
+        },
+        {
+          "word": "Linne",
+          "image": "tanktop.avif"
+        },
+        {
+          "word": "Stövlar",
+          "image": "rubber-boots.avif"
+        },
+        {
+          "word": "Badbyxor",
+          "image": "bathing-shorts.avif"
+        },
+        {
+          "word": "Kjol",
+          "image": "skirt.avif"
+        },
+        {
+          "word": "Klänning",
+          "image": "dress.avif"
+        },
+        {
+          "word": "Kängor",
+          "image": "boots.avif"
+        },
+        {
+          "word": "Sandaler",
+          "image": "sandals.avif"
+        },
+        {
+          "word": "Vantar",
+          "image": "mittens.avif"
+        },
+        {
+          "word": "Halsduk",
+          "image": "scarf.avif"
+        },
+        {
+          "word": "Handskar",
+          "image": "gloves.avif"
+        },
+        {
+          "word": "Skjorta",
+          "image": "button-up-shirt.avif"
+        },
+        {
+          "word": "Sängkläder",
+          "image": "bedsheets.avif"
+        },
+        {
+          "word": "Handduk",
+          "image": "towel.avif"
+        },
+        {
+          "word": "Täcke",
+          "image": "comforter.avif"
+        },
+        {
+          "word": "Kudde",
+          "image": "pillow.avif"
         }
       ]
     }

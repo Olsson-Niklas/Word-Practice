@@ -42,6 +42,16 @@ function getRandomWords(category) {
   return shuffledWords
 }
 
+function getImagePath(category, word) {
+  const categoryPath = jsonData.categories.find(
+    (cat) => cat.category === category,
+  ).categoryPath
+
+  const imagePath = categoryPath + word.image
+
+  return imagePath
+}
+
 // Generate all the word and image pages in the category
 function generateWords(category) {
   wordPracticePageList = []
@@ -64,9 +74,9 @@ function generateWords(category) {
     )
 
     const imageElement = document.createElement("img")
-    imageElement.src = word.image
+    imageElement.src = getImagePath(category, word)
     imageElement.alt = word.word
-    imageElement.classList.add("word-image")
+    imageElement.classList.add("word-image", "rounded", "flex", "center")
     wordContainer.appendChild(imageElement)
 
     const wordElement = document.createElement("h2")
@@ -102,6 +112,8 @@ function generateWords(category) {
       "text--medium",
       "pointer",
     )
+
+    nextButton.setAttribute("id", "next-button")
     nextButton.textContent = "Nästa Ord"
     nextButton.addEventListener("click", nextWord)
     navContainer.appendChild(nextButton)
@@ -111,9 +123,6 @@ function generateWords(category) {
     wordPracticePageList.push(wordContainer)
   }
 
-  console.log(index)
-  console.log(wordPracticePageList)
-  console.log(category)
   displayWord(index)
 }
 
@@ -137,6 +146,10 @@ function displayWord(index) {
   wordSection.innerHTML = ""
   wordSection.appendChild(wordPracticePageList[index])
   wordSection.style.display = "flex"
+
+  if (index === wordPracticePageList.length - 1) {
+    document.getElementById("next-button").innerText = "Klart"
+  }
 }
 
 let wordPracticePageList = []
