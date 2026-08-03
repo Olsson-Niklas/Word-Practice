@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kadwa", serif;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+.word-text {
+  font-size: 32px;
+}
+
+button {
+  font-family: "Kadwa", serif;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 48px;
+  }
+  button {
+    font-size: 24px;
+  }
+  .word-text {
+    font-size: 24px;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  button {
+    font-size: 12px;
+  }
+  .word-text {
+    font-size: 12px;
+  }
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#categories {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 2rem;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+#word .word-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 1200px) {
+  #categories {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  #categories {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+}
+header {
+  background-color: #604e8b;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1200px) {
+  header {
+    height: 100px;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    height: 60px;
+  }
+}
+body {
+  height: 100vh;
+  background-color: #f2f4ea;
+}
+
+.category {
+  border-width: 6px;
+  border-color: #604e8b;
+  border-style: solid;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0;
+  width: 250px;
+  aspect-ratio: 1.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: left;
+  line-height: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.category-label {
+  display: inline-block;
+  background-color: #604e8b;
+  padding: 5px 15px;
+  border-radius: 0 2rem 0 0;
+  position: relative;
+  bottom: -2px;
+  left: -2px;
+}
+
+#word {
+  margin: 1rem;
+}
+
+.word-image {
+  max-width: 800px;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  max-height: 60vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.nav button {
+  background-color: #604e8b;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  width: 300px;
+  text-align: center;
+}
+
+.word-text-container {
+  background-color: #604e8b;
+  width: 800px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 6px;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .category {
+    border-width: 6px;
+    width: 250px;
+  }
+  .word-image {
+    width: 90%;
+  }
+  .word-text-container {
+    width: 90%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .nav button {
+    width: 170px;
+  }
+}
+@media (max-width: 600px) {
+  .category {
+    border-width: 4px;
+    width: 180px;
+  }
+  .word-image {
+    width: 95%;
+  }
+  .word-text-container {
+    width: 95%;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .nav {
+    gap: 0.5rem;
+  }
+  .nav button {
+    width: 100px;
+  }
+}
+footer {
+  height: 200px;
+  background-color: #604e8b;
+  font-family: "Kadwa", serif;
+}
+
+@media (max-width: 1200px) {
+  footer {
+    height: 200px;
+  }
+}
+@media (max-width: 600px) {
+  footer {
+    height: 150px;
+  }
+}/*# sourceMappingURL=main.css.map */

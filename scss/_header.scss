@@ -1,0 +1,26 @@
+@use "variables" as var;
+
+header {
+  background-color: var.$background-color--secondary;
+  height: var.$header-height--desktop;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: var.$box-shadow;
+}
+
+//* Tablet
+@media (max-width: var.$tablet-cutoff) {
+  header {
+    height: var.$header-height--tablet;
+  }
+}
+
+//* Mobile
+@media (max-width: var.$mobile-cutoff) {
+  header {
+    height: var.$header-height--mobile;
+  }
+}
