@@ -1,0 +1,22 @@
+@use "variables" as var;
+
+//* Default
+footer {
+  height: var.$footer-height--desktop;
+  background-color: var.$background-color--secondary;
+  font-family: var.$font-family;
+}
+
+//* Tablet
+@media (max-width: var.$tablet-cutoff) {
+  footer {
+    height: var.$footer-height--tablet;
+  }
+}
+
+//* Mobile
+@media (max-width: var.$mobile-cutoff) {
+  footer {
+    height: var.$footer-height--mobile;
+  }
+}

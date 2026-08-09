@@ -12,25 +12,28 @@ async function loadJSON() {
 
 // Display categories
 function displayCategories() {
-  for (const category of jsonData.categories) {
-    const categoryElement = document.createElement("button")
-    categoryElement.classList.add(
-      "category",
-      "background",
-      "center",
-      "column",
-      "pointer",
-      "rounded",
-      "drop-shadow",
-      "text--adaptive",
-      "border",
-    )
-    categoryElement.textContent = category.category
-    categoryElement.addEventListener("click", () =>
-      generateWords(category.category),
-    )
-    categoriesSection.appendChild(categoryElement)
+  if (categoriesSection.innerHTML === "") {
+    for (const category of jsonData.categories) {
+      const categoryElement = document.createElement("button")
+      categoryElement.classList.add("category")
+
+      const labelElement = document.createElement("span")
+      labelElement.classList.add("category-label")
+      labelElement.textContent = category.category
+      categoryElement.appendChild(labelElement)
+
+      categoryElement.style.backgroundImage = `url(${category.categoryPath}${category.words[5].image})`
+
+      categoryElement.addEventListener("click", () =>
+        generateWords(category.category),
+      )
+      categoriesSection.appendChild(categoryElement)
+    }
   }
+
+  document.getElementById("header").textContent = "Kategorier"
+  wordSection.style.display = "none"
+  categoriesSection.style.display = "grid"
 }
 
 // Create randomized array of words in category
@@ -56,65 +59,52 @@ function getImagePath(category, word) {
 function generateWords(category) {
   wordPracticePageList = []
 
+  document.getElementById("header").textContent = category
   const words = getRandomWords(category)
 
   categoriesSection.style.display = "none"
 
   for (const word of words) {
     const wordContainer = document.createElement("div")
-    wordContainer.classList.add(
-      "word",
-      "background",
-      "rounded",
-      "flex",
-      "center",
-      "gap",
-      "column",
-      "text--medium",
-    )
+    wordContainer.classList.add("word-container")
 
     const imageElement = document.createElement("img")
     imageElement.src = getImagePath(category, word)
     imageElement.alt = word.word
-    imageElement.classList.add("word-image", "rounded", "flex", "center")
+    imageElement.classList.add("word-image")
     wordContainer.appendChild(imageElement)
 
-    const wordElement = document.createElement("h2")
-    wordElement.classList.add("text--medium", "center")
-    wordElement.style.display = "none"
+    const wordContainerElement = document.createElement("div")
+    wordContainerElement.classList.add("word-text-container")
+
+    const wordElement = document.createElement("span")
+    wordElement.classList.add("word-text")
     wordElement.textContent = word.word
-    wordContainer.appendChild(wordElement)
+    wordElement.style.color = "#604e8b"
+    wordContainerElement.appendChild(wordElement)
+
+    wordContainer.appendChild(wordContainerElement)
 
     const navContainer = document.createElement("div")
-    navContainer.classList.add("flex", "center", "gap")
+    navContainer.classList.add("nav")
+
+    const prevButton = document.createElement("button")
+    prevButton.classList.add("prevButton")
+    prevButton.setAttribute("id", "prev-button")
+    prevButton.textContent = "Föregående"
+    prevButton.addEventListener("click", prevWord)
+    navContainer.appendChild(prevButton)
 
     const revealButton = document.createElement("button")
-    revealButton.classList.add(
-      "background",
-      "flex",
-      "center",
-      "rounded",
-      "border",
-      "text--medium",
-      "pointer",
-    )
-    revealButton.textContent = "Visa Ordet"
+    revealButton.classList.add("revealButton")
+    revealButton.textContent = "Visa"
     revealButton.addEventListener("click", () => revealWord(wordElement))
     navContainer.appendChild(revealButton)
 
     const nextButton = document.createElement("button")
-    nextButton.classList.add(
-      "background",
-      "flex",
-      "center",
-      "rounded",
-      "border",
-      "text--medium",
-      "pointer",
-    )
-
+    nextButton.classList.add("nextButton")
     nextButton.setAttribute("id", "next-button")
-    nextButton.textContent = "Nästa Ord"
+    nextButton.textContent = "Nästa"
     nextButton.addEventListener("click", nextWord)
     navContainer.appendChild(nextButton)
 
@@ -127,7 +117,7 @@ function generateWords(category) {
 }
 
 function revealWord(element) {
-  element.style.display = "block"
+  element.style.color = "white"
 }
 
 function nextWord() {
@@ -135,8 +125,17 @@ function nextWord() {
     index += 1
     displayWord(index)
   } else {
-    wordSection.style.display = "none"
-    categoriesSection.style.display = "grid"
+    displayCategories()
+    index = 0
+  }
+}
+
+function prevWord() {
+  if (index > 0) {
+    index -= 1
+    displayWord(index)
+  } else {
+    displayCategories()
     index = 0
   }
 }
@@ -145,11 +144,15 @@ function nextWord() {
 function displayWord(index) {
   wordSection.innerHTML = ""
   wordSection.appendChild(wordPracticePageList[index])
-  wordSection.style.display = "flex"
-
+  wordPracticePageList[index].querySelector(".word-text").style.color =
+    "#604e8b"
   if (index === wordPracticePageList.length - 1) {
     document.getElementById("next-button").innerText = "Klart"
+  } else if (index === 0) {
+    document.getElementById("prev-button").innerText = "Tillbaka"
   }
+
+  wordSection.style.display = "block"
 }
 
 let wordPracticePageList = []
@@ -159,7 +162,7 @@ let index = 0
 const categoriesSection = document.getElementById("categories")
 
 // Get the section where the words will be displayed
-const wordSection = document.getElementById("words")
+const wordSection = document.getElementById("word")
 
 // Call the function to load data
 let jsonData

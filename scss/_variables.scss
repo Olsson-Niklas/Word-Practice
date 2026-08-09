@@ -1,0 +1,84 @@
+//* Colors
+$background-color--primary: #f2f4ea;
+$background-color--secondary: #604e8b;
+
+$accent-color--primary: #f2c609;
+$text-color--primary: #ffffff;
+
+//* Spacings and gaps
+$spacing--small: 0.5rem;
+$spacing--medium: 1rem;
+$spacing--large: 2rem;
+$spacing--extra-large: 4rem;
+
+$grid-gap--desktop: 2rem;
+$grid-gap--tablet: 1rem;
+$grid-gap--mobile: 0.5rem;
+
+//* Content Sizing
+//Desktop
+$max-width--desktop: 1200px;
+$header-height--desktop: 100px;
+$footer-height--desktop: 100px;
+$width-category--desktop: 250px;
+$max-width--picture--desktop: 800px;
+$width-nav-button--desktop: 300px;
+
+//Tablet
+$tablet-cutoff: 1200px;
+$max-width--tablet: 80vw;
+$header-height--tablet: 100px;
+$footer-height--tablet: 100px;
+$width-category--tablet: 250px;
+$max-width--picture--tablet: 90%;
+$width-nav-button--tablet: 170px;
+
+//Mobile
+$mobile-cutoff: 600px;
+$max-width--mobile: 95vw;
+$header-height--mobile: 60px;
+$footer-height--mobile: 150px;
+$width-category--mobile: 180px;
+$max-width--picture--mobile: 95%;
+$width-nav-button--mobile: 100px;
+
+//General
+$full-width--content: 100%;
+$picture-aspect-ratio: 1; // 1:1 aspect ratio
+$category-aspect-ratio: 1.5; // 3:2 aspect ratio
+$height-text-container: fit-content;
+$max-height-image: 60vh;
+
+//* Typography
+$font-family: "Kadwa", serif;
+
+//Desktop
+$header-size--desktop: 48px;
+$category-text-size--desktop: 24px;
+$button-text-size--desktop: 24px;
+
+//Tablet
+$header-size--tablet: 48px;
+$category-text-size--tablet: 24px;
+$button-text-size--tablet: 24px;
+
+//Mobile
+$header-size--mobile: 24px;
+$category-text-size--mobile: 16px;
+$button-text-size--mobile: 12px;
+
+//* Borders
+$border-radius--small: 6px;
+$border-radius--medium: 10px;
+
+$border-size--category--desktop: 6px;
+$border-size--category--tablet: 6px;
+$border-size--category--mobile: 4px;
+
+$box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+//* Padding and Margins
+$padding-small: 0.5rem;
+$padding-medium: 1rem;
+$margin-small: 0.5rem;
+$margin-medium: 1rem;
