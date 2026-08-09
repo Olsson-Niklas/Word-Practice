@@ -18,8 +18,8 @@ $grid-gap--mobile: 0.5rem;
 //* Content Sizing
 //Desktop
 $max-width--desktop: 1200px;
-$header-height--desktop: 150px;
-$footer-height--desktop: 200px;
+$header-height--desktop: 100px;
+$footer-height--desktop: 100px;
 $width-category--desktop: 250px;
 $max-width--picture--desktop: 800px;
 $width-nav-button--desktop: 300px;
@@ -28,7 +28,7 @@ $width-nav-button--desktop: 300px;
 $tablet-cutoff: 1200px;
 $max-width--tablet: 80vw;
 $header-height--tablet: 100px;
-$footer-height--tablet: 200px;
+$footer-height--tablet: 100px;
 $width-category--tablet: 250px;
 $max-width--picture--tablet: 90%;
 $width-nav-button--tablet: 170px;
@@ -53,9 +53,9 @@ $max-height-image: 60vh;
 $font-family: "Kadwa", serif;
 
 //Desktop
-$header-size--desktop: 64px;
-$category-text-size--desktop: 32px;
-$button-text-size--desktop: 32px;
+$header-size--desktop: 48px;
+$category-text-size--desktop: 24px;
+$button-text-size--desktop: 24px;
 
 //Tablet
 $header-size--tablet: 48px;

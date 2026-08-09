@@ -355,6 +355,310 @@
           "image": "pillow.avif"
         }
       ]
-    }
+    },
+    {
+    "category": "Badrummet",
+      "icon": "",
+      "categoryPath": "img/categories/bathroom/",
+      "words": [
+        {
+          "word": "Kamm",
+          "image": "comb.avif"
+        },
+        {
+          "word": "Hårtork",
+          "image": "hairdryer.avif"
+        },
+        {
+          "word": "Spegel",
+          "image": "mirror.avif"
+        },
+        {
+          "word": "Nagelklippare",
+          "image": "nailclippers.avif"
+        },
+        {
+          "word": "Rakapparat",
+          "image": "shaver.avif"
+        },
+        {
+          "word": "Dusch",
+          "image": "shower.avif"
+        },
+        {
+          "word": "Handfat",
+          "image": "sink.avif"
+        },
+        {
+          "word": "Tvål",
+          "image": "soap.avif"
+        },
+        {
+          "word": "Toalett",
+          "image": "toilet.avif"
+        },
+        {
+          "word": "Tandborste",
+          "image": "toothbrush.avif"
+        },
+        {
+          "word": "Tandkräm",
+          "image": "toothpaste.avif"
+        }
+      ]
+    },
+    {
+      "category": "Sovrummet",
+        "icon": "",
+        "categoryPath": "img/categories/bedroom/",
+        "words": [
+          {
+            "word": "Väckarklocka",
+            "image": "alarm-clock.avif"
+          },
+          {
+            "word": "Säng",
+            "image": "bed.avif"
+          },
+          {
+            "word": "Rullgardin",
+            "image": "blinds.avif"
+          },
+          {
+            "word": "Bok",
+            "image": "book.avif"
+          },
+          {
+            "word": "Bokhylla",
+            "image": "bookshelf.avif"
+          },
+          {
+            "word": "Dator",
+            "image": "laptop.avif"
+          },
+          {
+            "word": "Nattduksbord",
+            "image": "nightstand.avif"
+          },
+          {
+            "word": "Mobil",
+            "image": "phone.avif"
+          },
+          {
+            "word": "Fotoram",
+            "image": "picture-frame.avif"
+          },
+          {
+            "word": "Garderob",
+            "image": "wardrobe.avif"
+          }
+        ]
+      },
+      {
+        "category": "Köket",
+          "icon": "",
+          "categoryPath": "img/categories/kitchen/",
+          "words": [
+            {
+              "word": "Sophink",
+              "image": "bin.avif"
+            },
+            {
+              "word": "Smör",
+              "image": "butter.avif"
+            },
+            {
+              "word": "Kaffebryggare",
+              "image": "coffee-maker.avif"
+            },
+            {
+              "word": "Kaffe",
+              "image": "coffee.avif"
+            },
+            {
+              "word": "Coca Cola",
+              "image": "coke.avif"
+            },
+            {
+              "word": "Grädde",
+              "image": "cream.avif"
+            },
+            {
+              "word": "Skåp",
+              "image": "cupboard.avif"
+            },
+            {
+              "word": "Diskmaskin",
+              "image": "dishwasher.avif"
+            },
+            {
+              "word": "Fläkt",
+              "image": "fan.avif"
+            },
+            {
+              "word": "Gaffel",
+              "image": "fork.avif"
+            },
+            {
+              "word": "Frys",
+              "image": "freezer.avif"
+            },
+            {
+              "word": "Kylskåp",
+              "image": "fridge.avif"
+            },
+            {
+              "word": "Glas",
+              "image": "glass.avif"
+            },
+            {
+              "word": "Skinka",
+              "image": "ham.avif"
+            },
+            {
+              "word": "Honung",
+              "image": "honey.avif"
+            },
+            {
+              "word": "Kniv",
+              "image": "knife.avif"
+            },
+            {
+              "word": "Marmelad",
+              "image": "marmelade.avif"
+            },
+            {
+              "word": "Mikro",
+              "image": "microwave.avif"
+            },
+            {
+              "word": "Mjölk",
+              "image": "milk.avif"
+            },
+            {
+              "word": "Mugg",
+              "image": "mug.avif"
+            },
+            {
+              "word": "Ugn",
+              "image": "oven.avif"
+            },
+            {
+              "word": "Stekpanna",
+              "image": "pan.avif"
+            },
+            {
+              "word": "Kökspapper",
+              "image": "paper.avif"
+            },
+            {
+              "word": "Tallrik",
+              "image": "plate.avif"
+            },
+            {
+              "word": "Gryta",
+              "image": "pot.avif"
+            },
+            {
+              "word": "Saft",
+              "image": "saft.avif"
+            },
+            {
+              "word": "Diskho",
+              "image": "sink.avif"
+            },
+            {
+              "word": "Sked",
+              "image": "spoon.avif"
+            },
+            {
+              "word": "Spis",
+              "image": "stove.avif"
+            },
+            {
+              "word": "Bord",
+              "image": "table.avif"
+            },
+            {
+              "word": "Brödrost",
+              "image": "toaster.avif"
+            },
+            {
+              "word": "Bestick",
+              "image": "utensils.avif"
+            },
+            {
+              "word": "Vin",
+              "image": "wine.avif"
+            }
+          ]
+        },
+        {
+          "category": "Vardagsrummet",
+            "icon": "",
+            "categoryPath": "img/categories/livingroom/",
+            "words": [
+              {
+                "word": "Fåtölj",
+                "image": "armchair.avif"
+              },
+              {
+                "word": "Matta",
+                "image": "carpet.avif"
+              },
+              {
+                "word": "Soffbord",
+                "image": "coffee-table.avif"
+              },
+              {
+                "word": "Soffa",
+                "image": "couch.avif"
+              },
+              {
+                "word": "Gardiner",
+                "image": "curtains.avif"
+              },
+              {
+                "word": "Braskabin",
+                "image": "fireplace.avif"
+              },
+              {
+                "word": "Blommor",
+                "image": "flowers.avif"
+              },
+              {
+                "word": "Lampa",
+                "image": "lamp.avif"
+              },
+              {
+                "word": "Tavla",
+                "image": "paintings.avif"
+              },
+              {
+                "word": "Kudde",
+                "image": "pillow.avif"
+              },
+              {
+                "word": "Fjärrkontrol",
+                "image": "remote.avif"
+              },
+              {
+                "word": "Högtalare",
+                "image": "speaker.avif"
+              },
+              {
+                "word": "TV",
+                "image": "tv.avif"
+              },
+              {
+                "word": "USB",
+                "image": "usb.avif"
+              },
+              {
+                "word": "Fönster",
+                "image": "window.avif"
+              }
+            ]
+          }
   ]
 }
