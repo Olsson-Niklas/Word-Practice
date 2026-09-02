@@ -140,9 +140,10 @@ body {
   }
 
   .nav {
-    gap: var.$grid-gap--mobile;
+    width: 100%;
     button {
-      width: var.$width-nav-button--mobile;
+      max-width: var.$max-width-nav-button--mobile;
+      width: 30%;
     }
   }
 }

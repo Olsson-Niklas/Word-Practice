@@ -250,10 +250,11 @@ body {
     text-align: center;
   }
   .nav {
-    gap: 0.5rem;
+    width: 100%;
   }
   .nav button {
-    width: 110px;
+    max-width: 33%;
+    width: 30%;
   }
 }
 footer {

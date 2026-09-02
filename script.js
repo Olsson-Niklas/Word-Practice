@@ -119,7 +119,7 @@ function generateWords(category) {
     const prevButton = document.createElement("button")
     prevButton.classList.add("prevButton")
     prevButton.setAttribute("id", "prev-button")
-    prevButton.textContent = "Föregående"
+    prevButton.textContent = "Bakåt"
     prevButton.addEventListener("click", prevWord)
     navContainer.appendChild(prevButton)
 
@@ -177,7 +177,7 @@ function displayWord(index) {
   if (index === wordPracticePageList.length - 1) {
     document.getElementById("next-button").innerText = "Klart"
   } else if (index === 0) {
-    document.getElementById("prev-button").innerText = "Tillbaka"
+    document.getElementById("prev-button").innerText = "Hem"
   }
 
   wordSection.style.display = "block"
