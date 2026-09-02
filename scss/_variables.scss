@@ -35,12 +35,12 @@ $width-nav-button--tablet: 170px;
 
 //Mobile
 $mobile-cutoff: 600px;
-$max-width--mobile: 95vw;
+$max-width--mobile: 100vw;
 $header-height--mobile: 60px;
 $footer-height--mobile: 150px;
-$width-category--mobile: 180px;
+$width-category--mobile: 75vw;
 $max-width--picture--mobile: 95%;
-$width-nav-button--mobile: 100px;
+$width-nav-button--mobile: 110px;
 
 //General
 $full-width--content: 100%;
@@ -63,9 +63,9 @@ $category-text-size--tablet: 24px;
 $button-text-size--tablet: 24px;
 
 //Mobile
-$header-size--mobile: 24px;
-$category-text-size--mobile: 16px;
-$button-text-size--mobile: 12px;
+$header-size--mobile: 32px;
+$category-text-size--mobile: 24px;
+$button-text-size--mobile: 16px;
 
 //* Borders
 $border-radius--small: 6px;

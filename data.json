@@ -2,663 +2,651 @@
   "categories": [
     {
       "category": "Mat & Dryck",
-      "icon": "",
-      "categoryPath": "img/categories/food-and-drink/",
+      "categoryPath": "categories/food-and-drink/",
       "words": [
         {
           "word": "Pizza",
-          "image": "pizza.avif"
+          "fileName": "pizza"
         },
         {
           "word": "Pasta",
-          "image": "pasta.avif"
+          "fileName": "pasta"
         },
         {
           "word": "Banan",
-          "image": "banana.avif"
+          "fileName": "banana"
         },
         {
           "word": "Apelsin",
-          "image": "orange.avif"
+          "fileName": "orange"
         },
         {
           "word": "Tomat",
-          "image": "tomato.avif"
+          "fileName": "tomato"
         },
         {
           "word": "Hamburgare",
-          "image": "burger.avif"
+          "fileName": "burger"
         },
         {
           "word": "Tårta",
-          "image": "cake.avif"
+          "fileName": "cake"
         },
         {
           "word": "Sallat",
-          "image": "lettuce.avif"
+          "fileName": "lettuce"
         },
         {
           "word": "Ris",
-          "image": "rice.avif"
+          "fileName": "rice"
         },
         {
           "word": "Kyckling",
-          "image": "chicken.avif"
+          "fileName": "chicken"
         },
         {
           "word": "Potatis",
-          "image": "potato.avif"
+          "fileName": "potato"
         },
         {
           "word": "Morot",
-          "image": "carrot.avif"
+          "fileName": "carrot"
         },
         {
           "word": "Lök",
-          "image": "onion.avif"
+          "fileName": "onion"
         },
         {
           "word": "Flingor",
-          "image": "cereal.avif"
+          "fileName": "cereal"
         },
         {
           "word": "Paprika",
-          "image": "bellpepper.avif"
+          "fileName": "bellpepper"
         },
         {
           "word": "Ärtor",
-          "image": "peas.avif"
+          "fileName": "peas"
         },
         {
           "word": "Whiskey",
-          "image": "whiskey.avif"
+          "fileName": "whiskey"
         },
         {
           "word": "Vatten",
-          "image": "water.avif"
+          "fileName": "water"
         },
         {
           "word": "Mjölk",
-          "image": "milk.avif"
+          "fileName": "milk"
         },
         {
           "word": "Juice",
-          "image": "juice.avif"
+          "fileName": "juice"
         },
         {
           "word": "Lasagne",
-          "image": "lasagna.avif"
+          "fileName": "lasagna"
         },
         {
           "word": "Köttbullar",
-          "image": "meatball.avif"
+          "fileName": "meatball"
         },
         {
-          "word": "Bulle",
-          "image": "cinnamon-roll.avif"
+          "word": "Kanelbulle",
+          "fileName": "cinnamon-roll"
         },
         {
           "word": "Varmkorv",
-          "image": "hotdog.avif"
+          "fileName": "hotdog"
         },
         {
           "word": "Smörgås",
-          "image": "sandwich.avif"
+          "fileName": "sandwich"
         }
       ]
     },
     {
       "category": "Fordon",
-      "icon": "",
-      "categoryPath": "img/categories/vehicles/",
+      "categoryPath": "categories/vehicles/",
       "words": [
         {
           "word": "Bil",
-          "image": "car.avif"
+          "fileName": "car"
         },
         {
           "word": "Buss",
-          "image": "bus.avif"
+          "fileName": "bus"
         },
         {
           "word": "Cykel",
-          "image": "bicycle.avif"
+          "fileName": "bicycle"
         },
         {
           "word": "Tåg",
-          "image": "train.avif"
+          "fileName": "train"
         },
         {
           "word": "Flygplan",
-          "image": "airplane.avif"
+          "fileName": "airplane"
         },
         {
           "word": "Taxi",
-          "image": "taxi.avif"
+          "fileName": "taxi"
         },
         {
           "word": "Segelbåt",
-          "image": "sailboat.avif"
+          "fileName": "sailboat"
         },
         {
           "word": "Motorbåt",
-          "image": "motorboat.avif"
+          "fileName": "motorboat"
         },
         {
           "word": "Moped",
-          "image": "moped.avif"
+          "fileName": "moped"
         },
         {
           "word": "Motorcykel",
-          "image": "motorcycle.avif"
+          "fileName": "motorcycle"
         },
         {
           "word": "Spårvagn",
-          "image": "tram.avif"
+          "fileName": "tram"
         }
       ]
     },
     {
       "category": "Djur",
-      "icon": "",
-      "categoryPath": "img/categories/animals/",
+      "categoryPath": "categories/animals/",
       "words": [
         {
           "word": "Hund",
-          "image": "dog.avif"
+          "fileName": "dog"
         },
         {
           "word": "Katt",
-          "image": "cat.avif"
+          "fileName": "cat"
         },
         {
           "word": "Mus",
-          "image": "mouse.avif"
+          "fileName": "mouse"
         },
         {
           "word": "Tiger",
-          "image": "tiger.avif"
+          "fileName": "tiger"
         },
         {
           "word": "Lejon",
-          "image": "lion.avif"
+          "fileName": "lion"
         },
         {
           "word": "Elefant",
-          "image": "elephant.avif"
+          "fileName": "elephant"
         },
         {
           "word": "Giraff",
-          "image": "giraff.avif"
+          "fileName": "giraffe"
         },
         {
           "word": "Zebra",
-          "image": "zebra.avif"
+          "fileName": "zebra"
         },
         {
           "word": "Panda",
-          "image": "panda.avif"
+          "fileName": "panda"
         },
         {
           "word": "Varg",
-          "image": "wolf.avif"
+          "fileName": "wolf"
         },
         {
           "word": "Fågel",
-          "image": "bird.avif"
+          "fileName": "bird"
         },
         {
           "word": "Ko",
-          "image": "cow.avif"
+          "fileName": "cow"
         },
         {
           "word": "Häst",
-          "image": "horse.avif"
+          "fileName": "horse"
         },
         {
           "word": "Orm",
-          "image": "snake.avif"
+          "fileName": "snake"
         },
         {
           "word": "Fisk",
-          "image": "fish.avif"
+          "fileName": "fish"
         },
         {
           "word": "Sköldpadda",
-          "image": "turtle.avif"
+          "fileName": "turtle"
         },
         {
           "word": "Kanin",
-          "image": "bunny.avif"
+          "fileName": "bunny"
         },
         {
           "word": "Krabba",
-          "image": "crab.avif"
+          "fileName": "crab"
         },
         {
           "word": "Bläckfisk",
-          "image": "octopus.avif"
+          "fileName": "octopus"
         },
         {
           "word": "Delfin",
-          "image": "dolphin.avif"
+          "fileName": "dolphin"
         },
         {
           "word": "Val",
-          "image": "whale.avif"
+          "fileName": "whale"
         }
       ]
     },
     {
       "category": "Kläder",
-      "icon": "",
-      "categoryPath": "img/categories/clothes/",
+      "categoryPath": "categories/clothes/",
       "words": [
         {
           "word": "Skor",
-          "image": "shoes.avif"
+          "fileName": "shoes"
         },
         {
           "word": "Tröja",
-          "image": "shirt.avif"
+          "fileName": "shirt"
         },
         {
           "word": "Byxor",
-          "image": "pants.avif"
+          "fileName": "pants"
         },
         {
           "word": "Kortbyxor",
-          "image": "shorts.avif"
+          "fileName": "shorts"
         },
         {
           "word": "Jacka",
-          "image": "jacket.avif"
+          "fileName": "jacket"
         },
         {
           "word": "Mössa",
-          "image": "beanie.avif"
+          "fileName": "beanie"
         },
         {
           "word": "Keps",
-          "image": "cap.avif"
+          "fileName": "cap"
         },
         {
           "word": "Hatt",
-          "image": "hat.avif"
+          "fileName": "hat"
         },
         {
           "word": "Strumpor/Sockor",
-          "image": "socks.avif"
+          "fileName": "socks"
         },
         {
           "word": "Kalsonger",
-          "image": "underwear.avif"
+          "fileName": "underwear"
         },
         {
           "word": "Linne",
-          "image": "tanktop.avif"
+          "fileName": "tanktop"
         },
         {
           "word": "Stövlar",
-          "image": "rubber-boots.avif"
+          "fileName": "rubber-boots"
         },
         {
           "word": "Badbyxor",
-          "image": "bathing-shorts.avif"
+          "fileName": "bathing-shorts"
         },
         {
           "word": "Kjol",
-          "image": "skirt.avif"
+          "fileName": "skirt"
         },
         {
           "word": "Klänning",
-          "image": "dress.avif"
+          "fileName": "dress"
         },
         {
           "word": "Kängor",
-          "image": "boots.avif"
+          "fileName": "boots"
         },
         {
           "word": "Sandaler",
-          "image": "sandals.avif"
+          "fileName": "sandals"
         },
         {
           "word": "Vantar",
-          "image": "mittens.avif"
+          "fileName": "mittens"
         },
         {
           "word": "Halsduk",
-          "image": "scarf.avif"
+          "fileName": "scarf"
         },
         {
           "word": "Handskar",
-          "image": "gloves.avif"
+          "fileName": "gloves"
         },
         {
           "word": "Skjorta",
-          "image": "button-up-shirt.avif"
+          "fileName": "button-up-shirt"
         },
         {
           "word": "Sängkläder",
-          "image": "bedsheets.avif"
+          "fileName": "bedsheets"
         },
         {
           "word": "Handduk",
-          "image": "towel.avif"
+          "fileName": "towel"
         },
         {
           "word": "Täcke",
-          "image": "comforter.avif"
+          "fileName": "comforter"
         },
         {
           "word": "Kudde",
-          "image": "pillow.avif"
+          "fileName": "pillow"
         }
       ]
     },
     {
-    "category": "Badrummet",
-      "icon": "",
-      "categoryPath": "img/categories/bathroom/",
+      "category": "Badrummet",
+      "categoryPath": "categories/bathroom/",
       "words": [
         {
           "word": "Kamm",
-          "image": "comb.avif"
+          "fileName": "comb"
         },
         {
           "word": "Hårtork",
-          "image": "hairdryer.avif"
+          "fileName": "hairdryer"
         },
         {
           "word": "Spegel",
-          "image": "mirror.avif"
+          "fileName": "mirror"
         },
         {
           "word": "Nagelklippare",
-          "image": "nailclippers.avif"
+          "fileName": "nailclippers"
         },
         {
           "word": "Rakapparat",
-          "image": "shaver.avif"
+          "fileName": "shaver"
         },
         {
           "word": "Dusch",
-          "image": "shower.avif"
+          "fileName": "shower"
         },
         {
           "word": "Handfat",
-          "image": "sink.avif"
+          "fileName": "sink"
         },
         {
           "word": "Tvål",
-          "image": "soap.avif"
+          "fileName": "soap"
         },
         {
           "word": "Toalett",
-          "image": "toilet.avif"
+          "fileName": "toilet"
         },
         {
           "word": "Tandborste",
-          "image": "toothbrush.avif"
+          "fileName": "toothbrush"
         },
         {
           "word": "Tandkräm",
-          "image": "toothpaste.avif"
+          "fileName": "toothpaste"
         }
       ]
     },
     {
       "category": "Sovrummet",
-        "icon": "",
-        "categoryPath": "img/categories/bedroom/",
-        "words": [
-          {
-            "word": "Väckarklocka",
-            "image": "alarm-clock.avif"
-          },
-          {
-            "word": "Säng",
-            "image": "bed.avif"
-          },
-          {
-            "word": "Rullgardin",
-            "image": "blinds.avif"
-          },
-          {
-            "word": "Bok",
-            "image": "book.avif"
-          },
-          {
-            "word": "Bokhylla",
-            "image": "bookshelf.avif"
-          },
-          {
-            "word": "Dator",
-            "image": "laptop.avif"
-          },
-          {
-            "word": "Nattduksbord",
-            "image": "nightstand.avif"
-          },
-          {
-            "word": "Mobil",
-            "image": "phone.avif"
-          },
-          {
-            "word": "Fotoram",
-            "image": "picture-frame.avif"
-          },
-          {
-            "word": "Garderob",
-            "image": "wardrobe.avif"
-          }
-        ]
-      },
-      {
-        "category": "Köket",
-          "icon": "",
-          "categoryPath": "img/categories/kitchen/",
-          "words": [
-            {
-              "word": "Sophink",
-              "image": "bin.avif"
-            },
-            {
-              "word": "Smör",
-              "image": "butter.avif"
-            },
-            {
-              "word": "Kaffebryggare",
-              "image": "coffee-maker.avif"
-            },
-            {
-              "word": "Kaffe",
-              "image": "coffee.avif"
-            },
-            {
-              "word": "Coca Cola",
-              "image": "coke.avif"
-            },
-            {
-              "word": "Grädde",
-              "image": "cream.avif"
-            },
-            {
-              "word": "Skåp",
-              "image": "cupboard.avif"
-            },
-            {
-              "word": "Diskmaskin",
-              "image": "dishwasher.avif"
-            },
-            {
-              "word": "Fläkt",
-              "image": "fan.avif"
-            },
-            {
-              "word": "Gaffel",
-              "image": "fork.avif"
-            },
-            {
-              "word": "Frys",
-              "image": "freezer.avif"
-            },
-            {
-              "word": "Kylskåp",
-              "image": "fridge.avif"
-            },
-            {
-              "word": "Glas",
-              "image": "glass.avif"
-            },
-            {
-              "word": "Skinka",
-              "image": "ham.avif"
-            },
-            {
-              "word": "Honung",
-              "image": "honey.avif"
-            },
-            {
-              "word": "Kniv",
-              "image": "knife.avif"
-            },
-            {
-              "word": "Marmelad",
-              "image": "marmelade.avif"
-            },
-            {
-              "word": "Mikro",
-              "image": "microwave.avif"
-            },
-            {
-              "word": "Mjölk",
-              "image": "milk.avif"
-            },
-            {
-              "word": "Mugg",
-              "image": "mug.avif"
-            },
-            {
-              "word": "Ugn",
-              "image": "oven.avif"
-            },
-            {
-              "word": "Stekpanna",
-              "image": "pan.avif"
-            },
-            {
-              "word": "Kökspapper",
-              "image": "paper.avif"
-            },
-            {
-              "word": "Tallrik",
-              "image": "plate.avif"
-            },
-            {
-              "word": "Gryta",
-              "image": "pot.avif"
-            },
-            {
-              "word": "Saft",
-              "image": "saft.avif"
-            },
-            {
-              "word": "Diskho",
-              "image": "sink.avif"
-            },
-            {
-              "word": "Sked",
-              "image": "spoon.avif"
-            },
-            {
-              "word": "Spis",
-              "image": "stove.avif"
-            },
-            {
-              "word": "Bord",
-              "image": "table.avif"
-            },
-            {
-              "word": "Brödrost",
-              "image": "toaster.avif"
-            },
-            {
-              "word": "Bestick",
-              "image": "utensils.avif"
-            },
-            {
-              "word": "Vin",
-              "image": "wine.avif"
-            }
-          ]
+      "categoryPath": "categories/bedroom/",
+      "words": [
+        {
+          "word": "Väckarklocka",
+          "fileName": "alarm-clock"
         },
         {
-          "category": "Vardagsrummet",
-            "icon": "",
-            "categoryPath": "img/categories/livingroom/",
-            "words": [
-              {
-                "word": "Fåtölj",
-                "image": "armchair.avif"
-              },
-              {
-                "word": "Matta",
-                "image": "carpet.avif"
-              },
-              {
-                "word": "Soffbord",
-                "image": "coffee-table.avif"
-              },
-              {
-                "word": "Soffa",
-                "image": "couch.avif"
-              },
-              {
-                "word": "Gardiner",
-                "image": "curtains.avif"
-              },
-              {
-                "word": "Braskabin",
-                "image": "fireplace.avif"
-              },
-              {
-                "word": "Blommor",
-                "image": "flowers.avif"
-              },
-              {
-                "word": "Lampa",
-                "image": "lamp.avif"
-              },
-              {
-                "word": "Tavla",
-                "image": "paintings.avif"
-              },
-              {
-                "word": "Kudde",
-                "image": "pillow.avif"
-              },
-              {
-                "word": "Fjärrkontrol",
-                "image": "remote.avif"
-              },
-              {
-                "word": "Högtalare",
-                "image": "speaker.avif"
-              },
-              {
-                "word": "TV",
-                "image": "tv.avif"
-              },
-              {
-                "word": "USB",
-                "image": "usb.avif"
-              },
-              {
-                "word": "Fönster",
-                "image": "window.avif"
-              }
-            ]
-          }
+          "word": "Säng",
+          "fileName": "bed"
+        },
+        {
+          "word": "Rullgardin",
+          "fileName": "blinds"
+        },
+        {
+          "word": "Bok",
+          "fileName": "book"
+        },
+        {
+          "word": "Bokhylla",
+          "fileName": "bookshelf"
+        },
+        {
+          "word": "Dator",
+          "fileName": "laptop"
+        },
+        {
+          "word": "Nattduksbord",
+          "fileName": "nightstand"
+        },
+        {
+          "word": "Mobil",
+          "fileName": "phone"
+        },
+        {
+          "word": "Fotoram",
+          "fileName": "picture-frame"
+        },
+        {
+          "word": "Garderob",
+          "fileName": "wardrobe"
+        }
+      ]
+    },
+    {
+      "category": "Köket",
+      "categoryPath": "categories/kitchen/",
+      "words": [
+        {
+          "word": "Sophink",
+          "fileName": "bin"
+        },
+        {
+          "word": "Smör",
+          "fileName": "butter"
+        },
+        {
+          "word": "Kaffebryggare",
+          "fileName": "coffee-maker"
+        },
+        {
+          "word": "Kaffe",
+          "fileName": "coffee"
+        },
+        {
+          "word": "Coca Cola",
+          "fileName": "coke"
+        },
+        {
+          "word": "Grädde",
+          "fileName": "cream"
+        },
+        {
+          "word": "Skåp",
+          "fileName": "cupboard"
+        },
+        {
+          "word": "Diskmaskin",
+          "fileName": "dishwasher"
+        },
+        {
+          "word": "Fläkt",
+          "fileName": "fan"
+        },
+        {
+          "word": "Gaffel",
+          "fileName": "fork"
+        },
+        {
+          "word": "Frys",
+          "fileName": "freezer"
+        },
+        {
+          "word": "Kylskåp",
+          "fileName": "fridge"
+        },
+        {
+          "word": "Glas",
+          "fileName": "glass"
+        },
+        {
+          "word": "Skinka",
+          "fileName": "ham"
+        },
+        {
+          "word": "Honung",
+          "fileName": "honey"
+        },
+        {
+          "word": "Kniv",
+          "fileName": "knife"
+        },
+        {
+          "word": "Marmelad",
+          "fileName": "marmelade"
+        },
+        {
+          "word": "Mikro",
+          "fileName": "microwave"
+        },
+        {
+          "word": "Mugg",
+          "fileName": "mug"
+        },
+        {
+          "word": "Ugn",
+          "fileName": "oven"
+        },
+        {
+          "word": "Stekpanna",
+          "fileName": "pan"
+        },
+        {
+          "word": "Kökspapper",
+          "fileName": "paper"
+        },
+        {
+          "word": "Tallrik",
+          "fileName": "plate"
+        },
+        {
+          "word": "Gryta",
+          "fileName": "pot"
+        },
+        {
+          "word": "Saft",
+          "fileName": "saft"
+        },
+        {
+          "word": "Diskho",
+          "fileName": "sink"
+        },
+        {
+          "word": "Sked",
+          "fileName": "spoon"
+        },
+        {
+          "word": "Spis",
+          "fileName": "stove"
+        },
+        {
+          "word": "Bord",
+          "fileName": "table"
+        },
+        {
+          "word": "Brödrost",
+          "fileName": "toaster"
+        },
+        {
+          "word": "Bestick",
+          "fileName": "utensils"
+        },
+        {
+          "word": "Vin",
+          "fileName": "wine"
+        }
+      ]
+    },
+    {
+      "category": "Vardagsrummet",
+      "categoryPath": "categories/livingroom/",
+      "words": [
+        {
+          "word": "Fåtölj",
+          "fileName": "armchair"
+        },
+        {
+          "word": "Matta",
+          "fileName": "carpet"
+        },
+        {
+          "word": "Soffbord",
+          "fileName": "coffee-table"
+        },
+        {
+          "word": "Soffa",
+          "fileName": "couch"
+        },
+        {
+          "word": "Gardiner",
+          "fileName": "curtains"
+        },
+        {
+          "word": "Braskabin",
+          "fileName": "fireplace"
+        },
+        {
+          "word": "Blommor",
+          "fileName": "flowers"
+        },
+        {
+          "word": "Lampa",
+          "fileName": "lamp"
+        },
+        {
+          "word": "Tavla",
+          "fileName": "paintings"
+        },
+        {
+          "word": "Kudde",
+          "fileName": "pillow"
+        },
+        {
+          "word": "Fjärrkontroll",
+          "fileName": "remote"
+        },
+        {
+          "word": "Högtalare",
+          "fileName": "speaker"
+        },
+        {
+          "word": "TV",
+          "fileName": "tv"
+        },
+        {
+          "word": "USB",
+          "fileName": "usb"
+        },
+        {
+          "word": "Fönster",
+          "fileName": "window"
+        }
+      ]
+    }
   ]
 }
