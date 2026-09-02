@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-family: "Kadwa", serif;
   color: #ffffff;
@@ -16,6 +21,10 @@ h1 {
 }
 
 .word-text {
+  font-size: 24px;
+}
+
+.category-label {
   font-size: 24px;
 }
 
@@ -35,16 +44,22 @@ button {
   .word-text {
     font-size: 24px;
   }
+  .category-label {
+    font-size: 24px;
+  }
 }
 @media (max-width: 600px) {
   h1 {
-    font-size: 24px;
+    font-size: 32px;
   }
   button {
-    font-size: 12px;
+    font-size: 16px;
   }
   .word-text {
-    font-size: 12px;
+    font-size: 24px;
+  }
+  .category-label {
+    font-size: 24px;
   }
 }
 body {
@@ -86,7 +101,7 @@ main {
 }
 @media (max-width: 600px) {
   #categories {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 0.5rem;
   }
 }
@@ -142,7 +157,8 @@ body {
   left: -2px;
 }
 
-#word {
+#word,
+#categories {
   margin: 1rem;
 }
 
@@ -177,8 +193,22 @@ body {
   width: 800px;
   height: -moz-fit-content;
   height: fit-content;
+  padding: 0.5rem;
   border-radius: 6px;
   text-align: center;
+  position: relative;
+}
+.word-text-container .play-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  aspect-ratio: 1;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0.5rem;
 }
 
 @media (max-width: 1200px) {
@@ -201,9 +231,15 @@ body {
   }
 }
 @media (max-width: 600px) {
+  body {
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 100vh;
+    background-color: #f2f4ea;
+  }
   .category {
     border-width: 4px;
-    width: 180px;
+    width: 75vw;
   }
   .word-image {
     width: 95%;
@@ -217,7 +253,7 @@ body {
     gap: 0.5rem;
   }
   .nav button {
-    width: 100px;
+    width: 110px;
   }
 }
 footer {

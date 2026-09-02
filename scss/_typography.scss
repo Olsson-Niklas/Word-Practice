@@ -13,7 +13,11 @@ h1 {
 }
 
 .word-text {
-  font-size: var.$button-text-size--desktop;
+  font-size: var.$category-text-size--desktop;
+}
+
+.category-label {
+  font-size: var.$category-text-size--desktop;
 }
 
 button {
@@ -35,6 +39,10 @@ button {
   .word-text {
     font-size: var.$button-text-size--tablet;
   }
+
+  .category-label {
+    font-size: var.$category-text-size--tablet;
+  }
 }
 
 //* Mobile
@@ -48,6 +56,10 @@ button {
   }
 
   .word-text {
-    font-size: var.$button-text-size--mobile;
+    font-size: var.$category-text-size--mobile;
+  }
+
+  .category-label {
+    font-size: var.$category-text-size--mobile;
   }
 }

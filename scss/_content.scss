@@ -37,7 +37,8 @@ body {
   left: -2px;
 }
 
-#word {
+#word,
+#categories {
   margin: var.$margin-medium;
 }
 
@@ -71,8 +72,23 @@ body {
   background-color: var.$background-color--secondary;
   width: var.$max-width--picture--desktop;
   height: var.$height-text-container;
+  padding: var.$padding-small;
   border-radius: var.$border-radius--small;
   text-align: center;
+  position: relative;
+
+  .play-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    aspect-ratio: 1;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: var.$margin-small;
+  }
 }
 
 //* Tablet
@@ -102,6 +118,12 @@ body {
 
 //* Mobile
 @media (max-width: var.$mobile-cutoff) {
+  body {
+    height: fit-content;
+    min-height: 100vh;
+    background-color: var.$background-color--primary;
+  }
+
   .category {
     border-width: var.$border-size--category--mobile;
     width: var.$width-category--mobile;

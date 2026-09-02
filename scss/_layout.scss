@@ -43,7 +43,7 @@ main {
 
 @media (max-width: var.$mobile-cutoff) {
   #categories {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: var.$grid-gap--mobile;
   }
 }
